@@ -1,0 +1,149 @@
+
+
+/** background **/
+
+#main-page, #contact, #about {
+    background-image: url('macarons.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+/** header **/
+nav {
+    text-align: right;
+    margin-right: 150px;
+}
+
+#secondary {
+    background-color: pink;
+    height: 130px;
+}
+h1 {
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 3em;
+    color: white;
+    text-align: center;
+}
+#secondary {
+    color: #e75480;
+}
+#secondary H1 {
+    padding-top: 30px;
+}
+#secondary li {
+    position: relative;
+    top: -80px;
+
+}
+
+.container {
+    width: 800px;
+    margin: 100px auto;
+    text-align: center;
+}
+
+li {
+    display: inline-block;
+    margin-top: 45px;
+    margin-right: 20px;
+}
+a {
+    color: white;
+    font-size: 1.5em;
+    text-decoration: none;
+}
+a:hover {
+    color: #e75480;
+    border-bottom-color: #e75480;
+}
+.outline {
+    border: 2px solid white;
+    padding: 5px;
+}
+.active {
+    border-bottom-style: solid;
+    border-bottom-color: white;
+    border-bottom-width: 2px;
+}
+.btn-primary {
+    background-color: #e75480;
+    border: #e75480;
+}
+/** form **/
+
+form {
+    width: 500px;
+    background: white;
+    padding: 50px;
+    margin: 20px auto;
+    border-radius: 10px;
+
+
+}
+/** separate page elements **/
+
+#home {
+    position: fixed;
+    bottom: 0;
+    left: 45%;
+}
+
+.blurb {
+    width: 800px;
+    background-color: white;
+    margin: 20px auto;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: left;
+}
+.blurb .btn {
+    margin: auto;
+}
+.blurb img {
+    max-width: 100%;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.gallery {
+-webkit-column-count: 3;
+-moz-column-count: 3;
+column-count: 3;
+-webkit-column-width: 33%;
+-moz-column-width: 33%;
+column-width: 33%; }
+.gallery .pics {
+-webkit-transition: all 350ms ease;
+transition: all 350ms ease; }
+.gallery .animation {
+-webkit-transform: scale(1);
+-ms-transform: scale(1);
+transform: scale(1); }
+
+
+/** footer **/
+footer {
+    text-align: center;
+}
+
+/** Media Queries **/
+
+@media (max-width: 450px) {
+.gallery {
+-webkit-column-count: 1;
+-moz-column-count: 1;
+column-count: 1;
+-webkit-column-width: 100%;
+-moz-column-width: 100%;
+column-width: 100%;
+}
+}
+
+@media (max-width: 400px) {
+.btn.filter {
+padding-left: 1.1rem;
+padding-right: 1.1rem;
+}
+
+}
